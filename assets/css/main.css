@@ -39,6 +39,7 @@ p {
 a {
     color: #f85c37;
     word-wrap: break-word;
+	font-weight: 600;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
