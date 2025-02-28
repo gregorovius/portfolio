@@ -18,12 +18,17 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+h1, h3 {
+ font-family: 'Bebas Kai', sans-serif;
     font-weight: 600;
     color: #333;
 }
 
+h2, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 600;
+    color: #333;
+}
 
 /* Paragraph & Typographic */
 p {
