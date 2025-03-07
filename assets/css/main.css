@@ -289,3 +289,8 @@ a:after {
 sm {
 
 }
+/********** icons********/
+
+.fa-solid, .fas {
+ margin: 0.4em
+}
