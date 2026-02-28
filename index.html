@@ -23,29 +23,27 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
     <script src="assets/js/Chart.js"></script>
-<script src="https://kit.fontawesome.com/d0913b9e7c.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/d0913b9e7c.js" crossorigin="anonymous"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif]-->  
+  </head>
 
-	  <script>
-// JavaScript para carga suave
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+<script>
+	// JavaScript para carga suave
+	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
-        });
-    });
-});
-	  </script>
-	  
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
-
+    	    });
+    	});
+	});
+	</script>
+	
 	<div id="section-topbar">
 		<div id="topbar-inner">
 			<div class="container">
@@ -488,6 +486,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>
+
 
 
 
