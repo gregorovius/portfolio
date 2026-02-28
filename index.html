@@ -29,6 +29,19 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+	  <script>
+// JavaScript para carga suave
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+	  </script>
+	  
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
@@ -475,6 +488,7 @@
     <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>
+
 
 
 
